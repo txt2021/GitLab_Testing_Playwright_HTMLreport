@@ -1,0 +1,19 @@
+{
+  "name": "gitlab_testing_playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-run":"npx playwright test --reporter=html",
+    "report-html-open":"npx playwright show-report playwright-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.27.0"
+  },
+  "dependencies": {
+    "@extra/recaptcha": "^4.2.1-next.587"
+  }
+}
